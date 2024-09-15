@@ -1,7 +1,7 @@
 <?php
 function enviarMensajeTelegram($mensaje) {
-    $botToken = '6766741718:AAERxvAz_mEhR3aROqFwcJDnomh6F0ZGHLM'; // Reemplaza con el token de tu bot
-    $chatID = '-4079167315'; // Reemplaza con el ID del canal o chat al que quieras enviar el mensaje
+    $botToken = '7262207322:AAE51Mq-EHEUJUXut9X7l0nSJhIK2F7jsGs'; // Reemplaza con el token de tu bot
+    $chatID = '-4500407776'; // Reemplaza con el ID del canal o chat al que quieras enviar el mensaje
 
     $url = "https://api.telegram.org/bot$botToken/sendMessage";
     $data = array('chat_id' => $chatID, 'text' => $mensaje);
